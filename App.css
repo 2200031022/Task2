@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.stopwatch {
+  font-size: 5em;
+  margin: 20px;
+  border: 2px solid #333;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+button {
+  font-size: 2.5em;
+  padding: 10px 20px;
+  margin: 0 10px; /* Increased gap between buttons */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px; /* Added border radius for buttons */
+}
+
+.startStop {
+  background-color: #2ecc71; /* Green color for start/stop button */
+  color: white; /* White text color */
+}
+
+.startStop.stop {
+  background-color: #e74c3c; /* Red color for stop button */
+}
+
+.reset {
+  background-color: #3498db; /* Blue color for reset button */
+  color: white; /* White text color */
+}
+
+.lap {
+  background-color: #f39c12; /* Orange color for lap button */
+  color: white; /* White text color */
+}
